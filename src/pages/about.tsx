@@ -1,9 +1,10 @@
+import React from 'react';
 import Head from 'next/head';
-import { Card, Text, Badge, Button, Group } from '@mantine/core';
+import { Card, Text, Badge, Group } from '@mantine/core';
 
 export default function About() {
   return (
-    <>
+    <React.Fragment>
       <Head>
         <title>About Me | Marcus Taugner</title>
         <meta name="description" content="About Marcus Taugner" />
@@ -16,6 +17,6 @@ export default function About() {
           </Group>
         </Card>
       </div>
-    </>
+    </React.Fragment>
   );
 }

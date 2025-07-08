@@ -61,7 +61,7 @@ export function Header() {
           opened={opened}
           onClose={close}
           padding="md"
-          size="45vw"
+          size="65vw"
           position="top"
           withCloseButton={true}
         >
